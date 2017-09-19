@@ -1,0 +1,40 @@
+* {
+    background: #636363;
+    color:white;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+    .header h1 {
+        font-size: 2em;
+    }
+.content {
+    display: flex;
+}
+    .left,.center,.right {
+    font-style: italic;
+    font-size: 1.2em;
+    }
+.bottom_content h2 {
+    text-align: center;
+}
+    .first_row {
+    display: flex;
+    }
+        .col_left {
+            flex: 4 2 200px;
+        }
+        .col_right {
+            flex: 1 1 100px;
+        }
+    .second_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+button {
+    width:40px;
+    height: 20px;
+}
