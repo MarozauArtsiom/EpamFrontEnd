@@ -29,12 +29,15 @@
             flex: 1 1 100px;
         }
     .second_row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 300px;
+        margin: 0 auto;
     }
-button {
-    width:40px;
-    height: 20px;
-}
+        .second_row h4 {
+            text-align: center;
+        }
+        .second_row a {
+            text-decoration: none;
+        }
+            .second_row a:hover {
+                font-style: italic;
+            }
