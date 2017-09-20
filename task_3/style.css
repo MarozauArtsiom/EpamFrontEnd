@@ -1,28 +1,9 @@
-* {
-    font-size: 24px;
-}
 div {
     margin: 0 auto;
-    margin-top: 1em;
-    width: 600px;
+    margin-top: 1%;
     text-align: center;
     text-transform: lowercase;
 }
-/* div:nth-child(odd) {
-    color:green;
-}
-div:nth-child(even) {
-    color:red;
-} */
-/* div:nth-child(1n+1) {
-    text-transform: lowercase;
-}
-div:nth-child(1n+4) {
-    text-transform: uppercase;
-}
-div:nth-child(1n+5) {
-    text-decoration: underline;
-} */
 div:first-child {
     font-size: 0.9em;
     color: green;
