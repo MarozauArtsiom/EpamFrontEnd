@@ -3,22 +3,39 @@
 }
 div {
     margin: 0 auto;
-    margin-top: 1.5em;
+    margin-top: 1em;
     width: 600px;
     text-align: center;
+    text-transform: lowercase;
 }
-div:nth-child(odd) {
+/* div:nth-child(odd) {
     color:green;
 }
 div:nth-child(even) {
     color:red;
-}
-div:nth-child(1n+1) {
+} */
+/* div:nth-child(1n+1) {
     text-transform: lowercase;
 }
 div:nth-child(1n+4) {
     text-transform: uppercase;
 }
 div:nth-child(1n+5) {
+    text-decoration: underline;
+} */
+div:first-child {
+    font-size: 0.9em;
+    color: green;
+}
+div > .odd:only-of-type {
+    color:green;
+}
+div > .even:only-of-type {
+    color:red;
+}
+.big {
+    text-transform: uppercase;
+}
+.line {
     text-decoration: underline;
 }
