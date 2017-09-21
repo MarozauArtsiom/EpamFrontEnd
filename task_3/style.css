@@ -1,6 +1,10 @@
 body {
     font-size: 2em;
 }
+.fixed {
+    all:initial;
+    margin: 10px 0 0 10px; 
+}
 div {
     margin: 0 auto;
     margin-top: 1em;
@@ -28,10 +32,10 @@ div ~ div ~ div ~ div ~ div ~ div ~ div{
 div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
     font-size: .3em;
 }
-div + div + div + div + div + div + div + div + div{
+div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
     font-size: .2em;
 }
-div + div + div + div + div + div + div + div + div + div{
+div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
     font-size: .1em;
 }
 
@@ -41,12 +45,12 @@ div:nth-child(odd) {
 div:nth-child(even) {
     color:red;
 }
-div:nth-child(1n+1) {
+div:nth-child(1n + 1) {
     text-transform: lowercase;
 }
-div:nth-child(n + 5) {
+div:nth-child(n + 7) {
     text-transform: uppercase;
 }
-div:nth-child(2n + 6) {
+div:nth-child(2n + 8) {
     text-decoration: underline;
 }
