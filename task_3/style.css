@@ -39,6 +39,36 @@ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
 div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
     font-size: .1em;
 }
+<<<<<<< HEAD
+=======
+div ~ div{
+    font-size: .9em;
+}
+div ~ div ~ div{
+    font-size: .8em;
+}
+div ~ div ~ div ~ div{
+    font-size: .7em;
+}
+div ~ div ~ div ~ div ~ div{
+    font-size: .6em;
+}
+div ~ div ~ div ~ div ~ div ~ div{
+    font-size: .5em;
+}
+div ~ div ~ div ~ div ~ div ~ div ~ div{
+    font-size: .4em;
+}
+div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
+    font-size: .3em;
+}
+div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
+    font-size: .2em;
+}
+div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div ~ div{
+    font-size: .1em;
+}
+>>>>>>> v2
 
 div:nth-child(odd) {
     color:green;
